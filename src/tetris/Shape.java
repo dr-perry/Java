@@ -10,11 +10,10 @@ public class Shape {
                TShape, SquareShape, LShape, MirroredLShape };
 
     private Tetrominoes pieceShape;
-    private int coords[][];
+    int coords[][] = new int[4][2];
 
     public Shape() {
 
-        coords = new int[4][2];
         setShape(Tetrominoes.NoShape);
 
     }
