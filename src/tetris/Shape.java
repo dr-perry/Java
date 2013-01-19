@@ -11,8 +11,6 @@ public class Shape {
 
     private Tetrominoes pieceShape;
     private int coords[][];
-    
-
 
     public Shape() {
 
