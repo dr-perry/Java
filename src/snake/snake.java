@@ -1,13 +1,15 @@
 package snake;
+import javax.swing.*;
 
-public class snake {
-
-	/**
-	 * @param args
-	 */
+public class snake extends JFrame {
+	
+	int score = 0;
+	JLabel scoreBar = new JLabel(String score);
+	
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
+		
+		
+		
 	}
 
 }
