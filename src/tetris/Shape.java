@@ -11,7 +11,7 @@ public class Shape {
 
     private Tetrominoes pieceShape;
     private int coords[][];
-    private int[][][] coordsTable;
+    
 
 
     public Shape() {
@@ -23,7 +23,7 @@ public class Shape {
 
     public void setShape(Tetrominoes shape) {
 
-         coordsTable = new int[][][] {
+         int[][][] coordsTable = new int[][][] {
             { { 0, 0 },   { 0, 0 },   { 0, 0 },   { 0, 0 } },
             { { 0, -1 },  { 0, 0 },   { -1, 0 },  { -1, 1 } },
             { { 0, -1 },  { 0, 0 },   { 1, 0 },   { 1, 1 } },
